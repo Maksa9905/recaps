@@ -1,0 +1,31 @@
+{
+  "name": "@recap-engine/core",
+  "version": "1.2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "typecheck": "tsc --noEmit",
+    "test": "jest --config ../../jest.config.mjs --selectProjects core",
+    "test:watch": "jest --config ../../jest.config.mjs --selectProjects core --watch",
+    "test:coverage": "jest --config ../../jest.config.mjs --selectProjects core --coverage"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.8.3"
+  }
+}
