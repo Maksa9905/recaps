@@ -1,0 +1,269 @@
+{
+  "layout": {
+    "logo": "Recap admin"
+  },
+  "table": {
+    "dragHandle": "Reorder"
+  },
+  "nav": {
+    "metrics": "Metrics",
+    "badges": "Badges",
+    "stories": "Stories",
+    "recommendations": "Recommendations",
+    "preview": "Preview"
+  },
+  "metrics": {
+    "title": "Metrics",
+    "create": "Create",
+    "createTitle": "New metric",
+    "editTitle": "Edit metric",
+    "save": "Save",
+    "delete": "Delete",
+    "empty": "No metrics",
+    "loadError": "Failed to load metrics",
+    "search": "Search",
+    "enabled": "Enabled",
+    "isPublic": "Public",
+    "includeInLlm": "Include in LLM",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "enums": {
+      "valueType": {
+        "number": "Number",
+        "money": "Money",
+        "percentile": "Percentile",
+        "ratio": "Ratio",
+        "string": "String",
+        "date": "Date"
+      },
+      "sourceField": {
+        "value": "Value",
+        "percentile": "Percentile",
+        "share": "Share"
+      },
+      "currency": {
+        "RUB": "RUB"
+      }
+    },
+    "columns": {
+      "key": "Key",
+      "valueType": "Value type",
+      "sourceField": "Source field",
+      "sourceKey": "Source key",
+      "enabled": "Enabled",
+      "isPublic": "Public",
+      "includeInLlm": "LLM"
+    },
+    "fields": {
+      "key": "Key",
+      "valueType": "Value type",
+      "sourceField": "Source field",
+      "sourceKey": "Source key",
+      "currency": "Currency",
+      "percentileKey": "Percentile key",
+      "comparisonMinPercentile": "Comparison min percentile",
+      "sortOrder": "Sort order",
+      "enabled": "Enabled",
+      "isPublic": "Public",
+      "includeInLlm": "Include in LLM"
+    }
+  },
+  "badges": {
+    "title": "Badges",
+    "create": "Create",
+    "createTitle": "New badge",
+    "editTitle": "Edit badge",
+    "save": "Save",
+    "delete": "Delete",
+    "empty": "No badges",
+    "loadError": "Failed to load badges",
+    "search": "Search",
+    "enabled": "Enabled",
+    "visibility": "Visibility",
+    "metric": "Metric",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "enums": {
+      "visibility": {
+        "private": "Private",
+        "public": "Public",
+        "both": "Both"
+      },
+      "predicateOp": {
+        "gt": "Greater than",
+        "gte": "Greater or equal",
+        "eq": "Equal",
+        "exists": "Exists"
+      }
+    },
+    "columns": {
+      "id": "Id",
+      "title": "Title",
+      "visibility": "Visibility",
+      "enabled": "Enabled",
+      "metric": "Metric",
+      "sortOrder": "Sort order"
+    },
+    "fields": {
+      "id": "Id",
+      "title": "Title",
+      "description": "Description",
+      "iconUrl": "Icon URL",
+      "sortOrder": "Sort order",
+      "enabled": "Enabled",
+      "visibility": "Visibility",
+      "whenMetric": "Metric",
+      "whenOp": "Operator",
+      "whenValue": "Value"
+    }
+  },
+  "stories": {
+    "title": "Stories",
+    "create": "Create",
+    "createTitle": "New story",
+    "editTitle": "Edit story",
+    "save": "Save",
+    "delete": "Delete",
+    "empty": "No stories",
+    "loadError": "Failed to load stories",
+    "search": "Search",
+    "enabled": "Enabled",
+    "visibility": "Visibility",
+    "sceneType": "Scene type",
+    "metric": "Metric",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "enums": {
+      "visibility": {
+        "private": "Private",
+        "public": "Public",
+        "both": "Both"
+      },
+      "sceneType": {
+        "intro": "Intro",
+        "stat": "Stat",
+        "insight": "Insight",
+        "achievement": "Achievement",
+        "upsell": "Upsell",
+        "blocks": "Blocks",
+        "outro": "Outro",
+        "custom": "Custom"
+      },
+      "predicateOp": {
+        "gt": "Greater than",
+        "gte": "Greater or equal",
+        "eq": "Equal",
+        "exists": "Exists"
+      }
+    },
+    "columns": {
+      "id": "Id",
+      "sceneType": "Scene type",
+      "visibility": "Visibility",
+      "enabled": "Enabled",
+      "metric": "Metric",
+      "sortOrder": "Sort order"
+    },
+    "fields": {
+      "id": "Id",
+      "sceneType": "Scene type",
+      "visibility": "Visibility",
+      "payload": "Payload",
+      "sortOrder": "Sort order",
+      "enabled": "Enabled",
+      "whenMetric": "Metric",
+      "whenOp": "Operator",
+      "whenValue": "Value"
+    }
+  },
+  "recommendations": {
+    "title": "Recommendations",
+    "create": "Create",
+    "createTitle": "New recommendation",
+    "editTitle": "Edit recommendation",
+    "save": "Save",
+    "delete": "Delete",
+    "empty": "No recommendations",
+    "loadError": "Failed to load recommendations",
+    "search": "Search",
+    "enabled": "Enabled",
+    "metric": "Metric",
+    "minPriority": "Min priority",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "addPredicate": "Add condition",
+    "removePredicate": "Remove",
+    "enums": {
+      "matchMode": {
+        "all": "All",
+        "any": "Any"
+      },
+      "predicateOp": {
+        "gt": "Greater than",
+        "gte": "Greater or equal",
+        "eq": "Equal",
+        "exists": "Exists"
+      }
+    },
+    "columns": {
+      "id": "Id",
+      "title": "Title",
+      "path": "Path",
+      "enabled": "Enabled",
+      "metric": "Metric"
+    },
+    "fields": {
+      "id": "Id",
+      "title": "Title",
+      "text": "Text",
+      "callout": "Callout",
+      "linkLabel": "Link label",
+      "path": "Path",
+      "enabled": "Enabled",
+      "whenMatch": "Match",
+      "whenMetric": "Metric",
+      "whenOp": "Operator",
+      "whenValue": "Value"
+    }
+  },
+  "preview": {
+    "title": "Preview",
+    "run": "Preview",
+    "empty": "Choose a package version and run preview",
+    "errors": {
+      "npm": "Failed to load package versions from npm",
+      "engine": "Failed to load the Recap engine",
+      "backend": "Failed to load preview data",
+      "prepareRecap": "Failed to prepare Recap from preview data"
+    },
+    "fields": {
+      "reactVersion": "@recap-engine/react",
+      "coreVersion": "@recap-engine/core",
+      "year": "Year",
+      "mode": "Mode",
+      "seed": "Seed",
+      "theme": "Theme",
+      "autoplay": "Autoplay",
+      "loop": "Loop",
+      "gestures": "Gestures",
+      "tapNav": "Tap navigation",
+      "holdToPause": "Hold to pause",
+      "reducedMotion": "Reduced motion"
+    },
+    "modes": {
+      "private": "Private",
+      "public": "Public"
+    },
+    "themes": {
+      "avitoLight": "Avito light",
+      "avitoDark": "Avito dark",
+      "midnight": "Midnight",
+      "sunset": "Sunset",
+      "forest": "Forest"
+    }
+  }
+}

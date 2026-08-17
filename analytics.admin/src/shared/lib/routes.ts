@@ -1,0 +1,15 @@
+export const routes = {
+  badges: '/badges',
+  badgeCreate: '/badges/new',
+  badgeById: '/badges/$id',
+  metrics: '/metrics',
+  metricCreate: '/metrics/new',
+  metricByKey: '/metrics/$key',
+  recommendations: '/recommendations',
+  recommendationCreate: '/recommendations/new',
+  recommendationById: '/recommendations/$id',
+  stories: '/stories',
+  storyCreate: '/stories/new',
+  storyById: '/stories/$id',
+  preview: '/preview',
+} as const;

@@ -1,0 +1,269 @@
+{
+  "layout": {
+    "logo": "Recap admin"
+  },
+  "table": {
+    "dragHandle": "Изменить порядок"
+  },
+  "nav": {
+    "metrics": "Метрики",
+    "badges": "Бейджи",
+    "stories": "Сцены",
+    "recommendations": "Рекомендации",
+    "preview": "Превью"
+  },
+  "metrics": {
+    "title": "Метрики",
+    "create": "Создать",
+    "createTitle": "Новая метрика",
+    "editTitle": "Редактировать метрику",
+    "save": "Сохранить",
+    "delete": "Удалить",
+    "empty": "Нет метрик",
+    "loadError": "Не удалось загрузить метрики",
+    "search": "Поиск",
+    "enabled": "Включена",
+    "isPublic": "Публичная",
+    "includeInLlm": "В промпте LLM",
+    "yes": "Да",
+    "no": "Нет",
+    "all": "Все",
+    "enums": {
+      "valueType": {
+        "number": "Число",
+        "money": "Деньги",
+        "percentile": "Перцентиль",
+        "ratio": "Доля",
+        "string": "Строка",
+        "date": "Дата"
+      },
+      "sourceField": {
+        "value": "Значение",
+        "percentile": "Перцентиль",
+        "share": "Доля"
+      },
+      "currency": {
+        "RUB": "RUB"
+      }
+    },
+    "columns": {
+      "key": "Ключ",
+      "valueType": "Тип значения",
+      "sourceField": "Поле источника",
+      "sourceKey": "Ключ источника",
+      "enabled": "Вкл.",
+      "isPublic": "Публичная",
+      "includeInLlm": "LLM"
+    },
+    "fields": {
+      "key": "Ключ",
+      "valueType": "Тип значения",
+      "sourceField": "Поле источника",
+      "sourceKey": "Ключ источника",
+      "currency": "Валюта",
+      "percentileKey": "Ключ перцентиля",
+      "comparisonMinPercentile": "Мин. перцентиль сравнения",
+      "sortOrder": "Порядок",
+      "enabled": "Включена",
+      "isPublic": "Публичная",
+      "includeInLlm": "В промпте LLM"
+    }
+  },
+  "badges": {
+    "title": "Бейджи",
+    "create": "Создать",
+    "createTitle": "Новый бейдж",
+    "editTitle": "Редактировать бейдж",
+    "save": "Сохранить",
+    "delete": "Удалить",
+    "empty": "Нет бейджей",
+    "loadError": "Не удалось загрузить бейджи",
+    "search": "Поиск",
+    "enabled": "Включен",
+    "visibility": "Видимость",
+    "metric": "Метрика",
+    "yes": "Да",
+    "no": "Нет",
+    "all": "Все",
+    "enums": {
+      "visibility": {
+        "private": "Приватный",
+        "public": "Публичный",
+        "both": "Оба"
+      },
+      "predicateOp": {
+        "gt": "Больше",
+        "gte": "Не меньше",
+        "eq": "Равно",
+        "exists": "Существует"
+      }
+    },
+    "columns": {
+      "id": "Id",
+      "title": "Заголовок",
+      "visibility": "Видимость",
+      "enabled": "Вкл.",
+      "metric": "Метрика",
+      "sortOrder": "Порядок"
+    },
+    "fields": {
+      "id": "Id",
+      "title": "Заголовок",
+      "description": "Описание",
+      "iconUrl": "URL иконки",
+      "sortOrder": "Порядок",
+      "enabled": "Включен",
+      "visibility": "Видимость",
+      "whenMetric": "Метрика",
+      "whenOp": "Оператор",
+      "whenValue": "Значение"
+    }
+  },
+  "stories": {
+    "title": "Сцены",
+    "create": "Создать",
+    "createTitle": "Новая сцена",
+    "editTitle": "Редактировать сцену",
+    "save": "Сохранить",
+    "delete": "Удалить",
+    "empty": "Нет сцен",
+    "loadError": "Не удалось загрузить сцены",
+    "search": "Поиск",
+    "enabled": "Включена",
+    "visibility": "Видимость",
+    "sceneType": "Тип сцены",
+    "metric": "Метрика",
+    "yes": "Да",
+    "no": "Нет",
+    "all": "Все",
+    "enums": {
+      "visibility": {
+        "private": "Приватный",
+        "public": "Публичный",
+        "both": "Оба"
+      },
+      "sceneType": {
+        "intro": "Интро",
+        "stat": "Стат",
+        "insight": "Инсайт",
+        "achievement": "Достижение",
+        "upsell": "Апселл",
+        "blocks": "Блоки",
+        "outro": "Аутро",
+        "custom": "Своя"
+      },
+      "predicateOp": {
+        "gt": "Больше",
+        "gte": "Не меньше",
+        "eq": "Равно",
+        "exists": "Существует"
+      }
+    },
+    "columns": {
+      "id": "Id",
+      "sceneType": "Тип сцены",
+      "visibility": "Видимость",
+      "enabled": "Вкл.",
+      "metric": "Метрика",
+      "sortOrder": "Порядок"
+    },
+    "fields": {
+      "id": "Id",
+      "sceneType": "Тип сцены",
+      "visibility": "Видимость",
+      "payload": "Payload",
+      "sortOrder": "Порядок",
+      "enabled": "Включена",
+      "whenMetric": "Метрика",
+      "whenOp": "Оператор",
+      "whenValue": "Значение"
+    }
+  },
+  "recommendations": {
+    "title": "Рекомендации",
+    "create": "Создать",
+    "createTitle": "Новая рекомендация",
+    "editTitle": "Редактировать рекомендацию",
+    "save": "Сохранить",
+    "delete": "Удалить",
+    "empty": "Нет рекомендаций",
+    "loadError": "Не удалось загрузить рекомендации",
+    "search": "Поиск",
+    "enabled": "Включена",
+    "metric": "Метрика",
+    "minPriority": "Мин. приоритет",
+    "yes": "Да",
+    "no": "Нет",
+    "all": "Все",
+    "addPredicate": "Добавить условие",
+    "removePredicate": "Удалить",
+    "enums": {
+      "matchMode": {
+        "all": "Все",
+        "any": "Любое"
+      },
+      "predicateOp": {
+        "gt": "Больше",
+        "gte": "Не меньше",
+        "eq": "Равно",
+        "exists": "Существует"
+      }
+    },
+    "columns": {
+      "id": "Id",
+      "title": "Заголовок",
+      "path": "Путь",
+      "enabled": "Вкл.",
+      "metric": "Метрика"
+    },
+    "fields": {
+      "id": "Id",
+      "title": "Заголовок",
+      "text": "Текст",
+      "callout": "Выноска",
+      "linkLabel": "Текст ссылки",
+      "path": "Путь",
+      "enabled": "Включена",
+      "whenMatch": "Совпадение",
+      "whenMetric": "Метрика",
+      "whenOp": "Оператор",
+      "whenValue": "Значение"
+    }
+  },
+  "preview": {
+    "title": "Превью",
+    "run": "Превью",
+    "empty": "Выберите версию пакета и запустите превью",
+    "errors": {
+      "npm": "Не удалось загрузить версии пакета из npm",
+      "engine": "Не удалось загрузить движок Recap",
+      "backend": "Не удалось загрузить данные превью",
+      "prepareRecap": "Не удалось подготовить Recap из данных превью"
+    },
+    "fields": {
+      "reactVersion": "@recap-engine/react",
+      "coreVersion": "@recap-engine/core",
+      "year": "Год",
+      "mode": "Режим",
+      "seed": "Seed",
+      "theme": "Тема",
+      "autoplay": "Автоплей",
+      "loop": "Цикл",
+      "gestures": "Жесты",
+      "tapNav": "Навигация тапом",
+      "holdToPause": "Пауза по удержанию",
+      "reducedMotion": "Меньше анимации"
+    },
+    "modes": {
+      "private": "Приватный",
+      "public": "Публичный"
+    },
+    "themes": {
+      "avitoLight": "Avito светлая",
+      "avitoDark": "Avito тёмная",
+      "midnight": "Полночь",
+      "sunset": "Закат",
+      "forest": "Лес"
+    }
+  }
+}
